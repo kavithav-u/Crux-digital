@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import requests from "../data";
 import Search from "./Search";
-import { FaEdit, FaTrash } from "react-icons/fa";
+import { FaEdit, FaTrash } from 'react-icons/fa';
 
 const Table = () => {
   const [expandedAgency, setExpandedAgency] = useState(null);
@@ -290,7 +290,7 @@ const Table = () => {
                         </td>
                         <td>
                           <button className="text-green-600">
-                            <FaEdit />
+                          <FaEdit />
                           </button>
                           <button className="ml-3 text-red-700">
                             <FaTrash />

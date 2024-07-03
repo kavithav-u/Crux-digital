@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React,{ useState } from 'react';
 
 const Search = ({ onChange }) => {
   const [searchQuery, setSearchQuery] = useState('');
